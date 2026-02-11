@@ -1,0 +1,54 @@
+[
+    {
+        "id": "623fd8079c62e1a4",
+        "type": "mqtt in",
+        "z": "5e253528ea8baa00",
+        "name": "Virtualization Space: PO Mirror",
+        "topic": "factory/zone_A/history",
+        "qos": "1",
+        "datatype": "json",
+        "broker": "d526a633fdadda56",
+        "nl": false,
+        "rap": false,
+        "inputs": 0,
+        "x": 190,
+        "y": 120,
+        "wires": [
+            [
+                "38edc7b1440a8d98"
+            ]
+        ]
+    },
+    {
+        "id": "d526a633fdadda56",
+        "type": "mqtt-broker",
+        "name": "",
+        "broker": "cf3342496b154ffcaa4f562d55010e7a.s1.eu.hivemq.cloud",
+        "port": "8883",
+        "tls": "",
+        "clientid": "",
+        "autoConnect": true,
+        "usetls": true,
+        "protocolVersion": "5",
+        "keepalive": 60,
+        "cleansession": true,
+        "autoUnsubscribe": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthRetain": "false",
+        "birthPayload": "",
+        "birthMsg": {},
+        "closeTopic": "",
+        "closeQos": "0",
+        "closeRetain": "false",
+        "closePayload": "",
+        "closeMsg": {},
+        "willTopic": "",
+        "willQos": "0",
+        "willRetain": "false",
+        "willPayload": "",
+        "willMsg": {},
+        "userProps": "",
+        "sessionExpiry": ""
+    }
+]
