@@ -121,3 +121,13 @@ Implemented using **Node-RED**.
 ## 1️⃣ Physical Layer
 Load the code inside:
 
+into **Wokwi ESP32 simulator**.
+
+---
+
+## 2️⃣ Middleware Setup
+
+Install dependencies:
+
+```bash
+pip install paho-mqtt
